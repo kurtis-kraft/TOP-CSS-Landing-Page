@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+/* Header and Main */
+
+.header-and-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.links a {
+    color: #e5e7eb;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.description-and-sign-up {
+    display: flex;
+    flex-direction: column;
+    padding-right: 32px;
+}
+
+.main {
+    display: flex;
+}
+
+.header, .main {
+    padding-bottom: 120px;
+}
+
+.title-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 340px;
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+    filter: contrast(80%);
+}
+
+.logo {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    justify-content: left;
+    padding-top: 16px;
+}
+
+.sign-up-button button {
+    background-color: #3882f6;
+    border: none;
+    padding: 12px 46px;
+    font-size: 16px;
+    color: #e5e7eb;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sign-up-button button a {
+    color:#e5e7eb;
+}
+
+.placeholder-image {
+    padding-left: 48px;
+}
