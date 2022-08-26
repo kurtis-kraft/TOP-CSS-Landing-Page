@@ -100,3 +100,59 @@ a:link {
 .placeholder-image {
     padding-left: 48px;
 }
+
+.random-information-block {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.random-information-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.image-blocks-random {
+    display: flex;
+    justify-content: center;
+}
+
+.image-block-1, .image-block-2, .image-block-3, .image-block-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 24px;
+    padding-right: 80px;
+}
+
+.image-block-4 {
+    padding-right: 0px;
+}
+
+.image-block-1-image img, .image-block-2-image img,
+ .image-block-3-image img, .image-block-4-image img {
+    display: flex;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 6px;
+    border-radius: 24px;    
+}
+
+.image-block-1-text, .image-block-2-text,
+ .image-block-3-text, .image-block-4-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    text-align: center;
+    max-width: 162px;
+    font-size: 18px;
+    filter: contrast(80%);
+ } 
+
