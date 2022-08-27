@@ -206,20 +206,21 @@ a:link {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 180px;
+    padding-left: 180px;
  }
 
  .call-to-action-blue-menu {
     display: flex;
     justify-content: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #3882f6;
     border-style: solid;
     border-color: #3882f6;
     border-width: 6px;
     border-radius: 12px;
+    flex-grow: 1;
  }
 
  .call-and-sign-up-button {
@@ -231,20 +232,19 @@ a:link {
  .the-call {
     display: flex;
     flex-direction: column;
-    margin-right: 80px;
+    margin-right: 260px;
  }
 
  .call-title {
-    font-size: 24px;
+    font-size: 32px;
     color: #f9faf8;
     font-weight: bold;
     padding-bottom: 2px;
  }
 
  .call-text {
-    font-size: 12px;
     color: #f9faf8;
-    font-size: 16px;
+    font-size: 20px;
  }
 
  .call-button button {
@@ -265,5 +265,23 @@ a:link {
     color:#f9faf8;
     font-weight: bold;
     font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.copyright {
+    display: flex;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.copyright p {
+    color: #f9faf8;
+    font-size: 20px;
 }
 
