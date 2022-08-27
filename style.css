@@ -6,6 +6,8 @@ html, body, html * {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
 }
 
 /* Header and Main */
