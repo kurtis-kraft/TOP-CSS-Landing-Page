@@ -11,7 +11,6 @@ body {
 }
 
 /* Header and Main */
-
 .header-and-main {
     display: flex;
     flex-direction: column;
@@ -123,6 +122,9 @@ a:link {
     color: #1f2937;
 }
 
+
+/* Image blocks */ 
+
 .image-blocks-random {
     display: flex;
     justify-content: center;
@@ -159,6 +161,8 @@ a:link {
     font-size: 18px;
     filter: contrast(80%);
  } 
+
+ /* Quote Section */
 
  .quote-block {
     display: flex;
@@ -201,6 +205,8 @@ a:link {
     font-weight: bolder;
     font-size: 24px;
  }
+
+ /* The Call to Action */
 
  .call-to-action-block {
     display: flex;
@@ -268,6 +274,8 @@ a:link {
     font-weight: bold;
     font-size: 24px;
 }
+
+/* Footer */
 
 .footer {
     display: flex;
